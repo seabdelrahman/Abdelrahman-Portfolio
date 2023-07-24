@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Project</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="/Youtube Project/Styles/General.css">
+  <link rel="stylesheet" href="/Youtube Project/Styles/Header.css">
+  <link rel="stylesheet" href="/Youtube Project/Styles/videos.css">
+  <link rel="stylesheet" href="/Youtube Project/Styles/sidebar.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img class="hamburger" src="/Media/Imgs/Icons/hamburger-menu.svg" alt="hamburger">
+      <img class="youtube-logo" src="/Media/Imgs/Icons/youtube-logo.svg" alt="">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="/Media/Imgs/Icons/search.svg" alt="search">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="/Media/Imgs/Icons/voice-search-icon.svg" alt="voice search icon">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="/Media/Imgs/Icons/upload.svg" alt="upload">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="youtube-apps-container">
+        <img class="youtube-apps" src="/Media/Imgs/Icons/youtube-apps.svg" alt="youtube apps">
+        <div class="tooltip">YouTube apps</div>
+      </div>
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="/Media/Imgs/Icons/notifications.svg" alt="notifications icon">
+        <div class="notifications-count">3</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <img class="channel-user-photo" src="/Media/Imgs/Channel Pictures/2019_11_17_07_10_IMG_2448.JPG"
+        alt="channel user photo">
+    </div>
+  </div>
+
+  <div class="side-bar">
+    <div class="side-bar-link">
+      <img src="/Media/Imgs/Icons/home.svg" alt="">
+      <div>Home</div>
+    </div>
+    <div class="side-bar-link">
+      <img src="/Media/Imgs/Icons/explore.svg" alt="">
+      <div>Explore</div>
+    </div>
+    <div class="side-bar-link">
+      <img src="/Media/Imgs/Icons/subscriptions.svg" alt="">
+      <div>Subscriptios</div>
+    </div>
+    <div class="side-bar-link">
+      <img src="/Media/Imgs/Icons/originals.svg" alt="">
+      <div>Originals</div>
+    </div>
+    <div class="side-bar-link">
+      <img src="/Media/Imgs/Icons/youtube-music.svg" alt="">
+      <div>YouTube Music</div>
+    </div>
+    <div class="side-bar-link">
+      <img src="/Media/Imgs/Icons/library.svg" alt="">
+      <div>Library</div>
+    </div>
+  </div>
+
+  <!--   
+  <div class="video-grid">
+    <div class="video-info">
+      <div class="video-preview">
+        <img class="thumbnail" src="/Media/Imgs/Video Preview/thumbnail-1.webp" alt="Video Preview">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-pic">
+          <img class="profile-picutre" src="/Media/Imgs/Channel Pictures/channel-1.jpeg" alt="channel-pic">
+        </div>
+        <div class="details-video-1">
+          <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+          <p class="author">Marques Brownlee</p>
+          <p class="video-views">3.4M views · 6 months ago</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <img class="thumbnail" src="/Media/Imgs/Video Preview/thumbnail-1.webp" alt="Video Preview">
+      </div>
+      <div class="video-info">
+        <div class="channel-pic">
+          <img class="profile-picutre" src="/Media/Imgs/Channel Pictures/channel-1.jpeg" alt="channel-pic">
+        </div>
+        <div class="details-video-1">
+          <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+          <p class="author">Marques Brownlee</p>
+          <p class="video-views">3.4M views · 6 months ago</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <img class="thumbnail" src="/Media/Imgs/Video Preview/thumbnail-2.webp" alt="Second Video">
+      </div>
+      <div class="video-info">
+        <div class="channel-pic">
+          <img class="profile-picutre" src="/Media/Imgs/Channel Pictures/channel-2.jpeg" alt="second channel Picture">
+        </div>
+        <div class="video-details">
+          <p class="video-title">Try Not To Laugh Challange #9</p>
+          <p class="author">Markiplier</p>
+          <p class="video-views">19M views · 4 years ago</p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <img class="thumbnail" src="/Media/Imgs/Video Preview/thumbnail-2.webp" alt="Second Video">
+      </div>
+      <div class="video-info">
+        <div class="channel-pic">
+          <img class="profile-picutre" src="/Media/Imgs/Channel Pictures/channel-2.jpeg" alt="second channel Picture">
+        </div>
+        <div class="video-details">
+          <p class="video-title">Try Not To Laugh Challange #9</p>
+          <p class="author">Markiplier</p>
+          <p class="video-views">19M views · 4 years ago</p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <img class="thumbnail" src="/Media/Imgs/Video Preview/thumbnail-2.webp" alt="Second Video">
+      </div>
+      <div class="video-info">
+        <div class="channel-pic">
+          <img class="profile-picutre" src="/Media/Imgs/Channel Pictures/channel-2.jpeg" alt="second channel Picture">
+        </div>
+        <div class="video-details">
+          <p class="video-title">Try Not To Laugh Challange #9</p>
+          <p class="author">Markiplier</p>
+          <p class="video-views">19M views · 4 years ago</p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <img class="thumbnail" src="/Media/Imgs/Video Preview/thumbnail-1.webp" alt="Video Preview">
+      </div>
+      <div class="video-info">
+        <div class="channel-pic">
+          <img class="profile-picutre" src="/Media/Imgs/Channel Pictures/channel-1.jpeg" alt="channel-pic">
+        </div>
+        <div class="details-video-1">
+          <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+          <p class="author">Marques Brownlee</p>
+          <p class="video-views">3.4M views · 6 months ago</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="followers-list">
+    <div class="oliver-profile">
+      <img class="oliver-pic" src="/Media/Imgs/Channel Pictures/channel-1.jpeg" alt="Profile Picutre">
+    </div>
+    <div class="oliver-data">
+      <p class="oliv">Oliver</p>
+      <p class="thecat">The Cat</p>
+      <p class="pop">Popular</p>
+    </div>
+    <div class="oliver-button">
+      <button class="follow-oliver-button">Follow</button>
+    </div>
+  </div> -->
+
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=BwNyfylA7do" target="_blank">
+          <img class="thumbnail" src="/Media/Imgs/Video Preview/egypt10places.webp" alt="">
+          <div class="video-time">10:04</div>
+        </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="/Media/Imgs/Channel Pictures/Joyous.jpg" alt="Channel Picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Amazing Places to Visit in Egypt | Best Places to Visit in Egypt - Travel Video</p>
+          <p class="video-author">Joyous Travel</p>
+          <p class="video-stats">459K views &#183; 8 months ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=eFaCI0GcvaE" target="_blank">
+          <img class="thumbnail" src="/Media/Imgs/Video Preview/Peru.webp" alt="Video Preview">
+          <div class="video-time">3:47</div>
+        </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="/Media/Imgs/Channel Pictures/mr.jpg" alt="Profile Picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Sacred Valley | Peru</p>
+          <p class="video-author">MrBrynnorth</p>
+          <p class="video-stats">165K views &#183; 3 Months ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=BapSQFJPMM0" target="_blank">
+          <img class="thumbnail" src="/Media/Imgs/Video Preview/hq720.webp" alt="The Pyramids">
+        </a>
+        <div class="video-time">1:48</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="/Media/Imgs/Pyramids-logo.jpg" alt="Channel Logo">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Let's Go - Egypt</p>
+          <p class="video-author">Beautiful Destinations</p>
+          <p class="video-stats">12M views &#183; 1 year</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=XJ2UTXbGx0A" target="_blank">
+          <img class="thumbnail" src="/Media/Imgs/Video Preview/greece.webp" alt="Preview">
+          <div class="video-time">2:48</div>
+        </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="/Media/Imgs/Channel Pictures/beautiful-des.jpg" alt="profile picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">The Magic Time in Santorini and Mykonos</p>
+          <p class="video-author">Beautiful Destinations</p>
+          <p class="video-stats">7.3K views &#183; 3 Weeks ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=-f9YT62dDTY" target="_blank">
+          <img class="thumbnail" src="/Media/Imgs/Video Preview/AlAhly.webp" alt="video Preview">
+          <div class="video-time">1:20</div>
+        </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="/Media/Imgs/Channel Pictures/AlAhly_profile.jpg" alt="profile picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">A New Eagle in Gezira</p>
+          <p class="video-author">Al Ahly SC-النادى الأهلى</p>
+          <p class="video-stats">48k views &#183; 2 hours ago</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=s3G2kLruJJo&t=4s" target="_blank">
+          <img class="thumbnail" src="/Media/Imgs/Video Preview/top100des.webp" alt="Video Preview">
+          <div class="video-time">1:01:55</div>
+        </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="/Media/Imgs/Channel Pictures/janprofile.jpg" alt="Profile Picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Top 100 Places To Visit On Earth - Ultimate Travel Guide </p>
+          <p class="video-author">Ryan Shirley</p>
+          <p class="video-stats">2.7M views &#183; 5 months ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=xkAZnasg4Pw&t=3033s" target="_blank">
+          <img class="thumbnail" src="/Media/Imgs/Video Preview/Jazzt.webp" alt="The Pyramids">
+          <div class="video-time">11:54:59</div>
+        </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="/Media/Imgs/Channel Pictures/jazz_profile.jpg" alt="Channel Logo">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Warm Jazz Music for Study, Work, Relax - Relaxing Jazz Instrumental Music</p>
+          <p class="video-author">Coffee Relaxing Jazz</p>
+          <p class="video-stats">114K views &#183; 1 month ago</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=DhnHSFHukUg" target="_blank">
+          <img class="thumbnail" src="/Media/Imgs/Video Preview/cabo.webp" alt="Video Preview">
+          <div class="video-time">2:40:53</div>
+        </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="/Media/Imgs/Channel Pictures/cabo_profile.jpg" alt="Profile Picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">CABO SAN LUCAS, MEXICO | 4K &#9001;UHD&#9002; Cinematic Drone Footage - Ambient</p>
+          <p class="video-author">Just Beautiful</p>
+          <p class="video-stats">587K views &#183; 4 months ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=1J_9-obuRZc" target="_blank">
+          <img class="thumbnail" src="/Media/Imgs/Video Preview/bali0_live.webp" alt="The Pyramids">
+          <div class="live-time">Live</div>
+        </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="/Media/Imgs/Channel Pictures/bali_profile.jpg" alt="Channel Logo">
+        </div>
+        <div class="video-info">
+          <p class="video-title">FLYING OVER BALI &#9001;4K&#9002;</p>
+          <p class="video-author">Dearm Soul</p>
+          <p class="video-stats">93 views Now &#183; <span
+              style="background-color: red; color: white; padding: 4px 8px;">Live</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=o0JVTqMG_SE" target="_blank">
+          <img class="thumbnail" src="/Media/Imgs/Video Preview/Deutchland.webp" alt="">
+          <div class="video-time">15:19</div>
+        </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="/Media/Imgs/Channel Pictures/vlog_profile.jpg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">سألت المصريين فى ألمانيا | هل ندمان على إختيارك المانيا؟ ردورد صادمه</p>
+          <p class="video-author">Akrab Vlogs</p>
+          <p class="video-stats">333K &#183; 2 weeks ago</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
